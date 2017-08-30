@@ -70,9 +70,7 @@
         "ext-pdo_mysql": "*",
         "ext-soap": "*",
         "sjparkinson/static-review": "~4.1",
-        "ramsey/uuid": "3.6.1",
-        "taxjar/module-taxjar": "^0.7.4",
-        "ebizmarts/magento2-magemonkey": "^3.0"
+        "ramsey/uuid": "3.6.1"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.0",
