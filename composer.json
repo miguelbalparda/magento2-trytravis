@@ -70,7 +70,9 @@
         "ext-pdo_mysql": "*",
         "ext-soap": "*",
         "sjparkinson/static-review": "~4.1",
-        "ramsey/uuid": "3.6.1"
+        "ramsey/uuid": "3.6.1",
+        "taxjar/module-taxjar": "^0.7.4",
+        "ebizmarts/magento2-magemonkey": "^3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.0",
@@ -258,5 +260,11 @@
         }
     },
     "minimum-stability": "alpha",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "magesycho-magento2-easy-template-path-hints": {
+            "type": "git",
+            "url": "git@github.com:MagePsycho/magento2-easy-template-path-hints.git"
+        }
+    }
 }

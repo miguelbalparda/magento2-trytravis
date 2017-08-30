@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "16d03df808a8938009a500a058708054",
-    "content-hash": "755acb21c6c819ea0af7fdf2fa8a1e26",
+    "hash": "0d3f190924477a44049472c669f4f964",
+    "content-hash": "8a7016555db1b9106756fd21b0cc03bf",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -491,6 +491,37 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14 19:40:03"
+        },
+        {
+            "name": "ebizmarts/magento2-magemonkey",
+            "version": "3.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebizmarts/magento2-magemonkey.git",
+                "reference": "7d0763dc9644ed9c0a9ffcc30aefad5853e89464"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebizmarts/magento2-magemonkey/zipball/7d0763dc9644ed9c0a9ffcc30aefad5853e89464",
+                "reference": "7d0763dc9644ed9c0a9ffcc30aefad5853e89464",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Ebizmarts\\MageMonkey\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Connect Mailchimp with Magento",
+            "time": "2016-09-16 14:03:24"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1861,6 +1892,39 @@
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
             "time": "2017-04-12 14:07:15"
+        },
+        {
+            "name": "taxjar/module-taxjar",
+            "version": "0.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/taxjar/taxjar-magento2-extension.git",
+                "reference": "bb759faee9e9964ac264f1c2d2f25019a4f64d69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/taxjar/taxjar-magento2-extension/zipball/bb759faee9e9964ac264f1c2d2f25019a4f64d69",
+                "reference": "bb759faee9e9964ac264f1c2d2f25019a4f64d69",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "^100.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Taxjar\\SalesTax\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "TaxJar Sales Tax Module for Magento 2",
+            "time": "2017-08-15 17:42:46"
         },
         {
             "name": "tedivm/jshrink",
