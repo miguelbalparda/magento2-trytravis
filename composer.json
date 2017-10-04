@@ -71,7 +71,8 @@
         "ext-soap": "*",
         "sjparkinson/static-review": "~4.1",
         "ramsey/uuid": "3.6.1",
-        "veriteworks/m2-japaneselocale": "^1.2"
+        "veriteworks/m2-japaneselocale": "^1.2",
+        "ebizmarts/magento2-magemonkey": "^3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.0",
