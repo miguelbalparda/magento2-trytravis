@@ -70,7 +70,8 @@
         "ext-pdo_mysql": "*",
         "ext-soap": "*",
         "sjparkinson/static-review": "~4.1",
-        "ramsey/uuid": "3.6.1"
+        "ramsey/uuid": "3.6.1",
+        "veriteworks/m2-japaneselocale": "^1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.0",

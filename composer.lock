@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef4dcea511327f6c10a2ed89bd907adb",
+    "content-hash": "29d311df2fb3ddb8fb081d8da58f0574",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -1959,6 +1959,49 @@
                 "yui"
             ],
             "time": "2017-05-16T13:45:26+00:00"
+        },
+        {
+            "name": "veriteworks/m2-japaneselocale",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HirokazuNishi/m2-japaneselocale.git",
+                "reference": "f8bd88b68db145c5aa5a6773b041ab0672f5b989"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HirokazuNishi/m2-japaneselocale/zipball/f8bd88b68db145c5aa5a6773b041ab0672f5b989",
+                "reference": "f8bd88b68db145c5aa5a6773b041ab0672f5b989",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Hirokazu Nishi",
+                    "email": "nishi@veriteworks.co.jp",
+                    "homepage": "http://veriteworks.co.jp/",
+                    "role": "developer"
+                }
+            ],
+            "description": "Japanese Language Pack for Magento2",
+            "keywords": [
+                "magento2",
+                "translation"
+            ],
+            "time": "2017-09-15T06:55:51+00:00"
         },
         {
             "name": "zendframework/zend-captcha",
